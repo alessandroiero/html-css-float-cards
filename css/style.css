@@ -1,10 +1,10 @@
-/* Commmon */
+/* Reset */
 * {
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
-
+/* Defaul Type */
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -15,15 +15,13 @@ h1,h2{
     font-family: 'Fredoka One', cursive;
 }
 
-p{
+p,a{
     font-family: 'Signika', sans-serif;
 }
 
-/* /Common */
-
 /* Parte Superiore */
 
-.prima-section{
+.prima-section>p,h1{
     text-align: center;
 }
 
@@ -32,8 +30,41 @@ h1{
     font-size: 40px;
 }
 
-.prima-section p{
+.prima-section>p{
     margin-top: 50px;
     font-size: 20px;
 }
-/* /Parte Superiore */
+/* Membri */
+img{
+    max-width: 130px;
+    padding-right: 20px;
+}
+.membro,.membro img{
+    float: left;
+    display: block;
+}
+.membro{
+    width: calc(100%/3 - 40px);
+    margin: 20px;
+    background-color: #0f0e17;
+    color: white;
+    box-shadow: 50px 50px;
+}
+
+.membro>h2{
+    font-size: 17px;
+}
+.membro p,.membro h2{
+    padding: 8px;
+}
+
+a[href^='mail']{
+    color: #5db3e6;
+    text-decoration: none;
+}
+
+section::after{
+    content: '';
+    display: block;
+    clear: both;
+}
