@@ -1,5 +1,39 @@
+/* Commmon */
 * {
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+h1,h2{
+    font-family: 'Fredoka One', cursive;
+}
+
+p{
+    font-family: 'Signika', sans-serif;
+}
+
+/* /Common */
+
+/* Parte Superiore */
+
+.prima-section{
+    text-align: center;
+}
+
+h1{
+    color: #e53170;
+    font-size: 40px;
+}
+
+.prima-section p{
+    margin-top: 50px;
+    font-size: 20px;
+}
+/* /Parte Superiore */
